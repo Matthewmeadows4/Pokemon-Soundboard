@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1> Pokemon Soundboard</h1>
+    <p> This Soundboard was made following a Wes Bos tutorial.</p>
+    <button id="bulbyboi" onclick ="play()">
+        <img src="img/bulbyboy.png">
+    </button>
+    <audio id="bulba" src="audio /bulbasaur.mp3"></audio>
+</body>
+<script>
+
+   function play(){
+   const audio = document.getElementById('bulba')
+   audio.play()
+   } 
+  //  window.addEventListener('onclick', function() {
+       // const audio = document.querySelector(('audio[id=bulba]'))
+       // console.log('clicked!')});
+</script>
+</html>
